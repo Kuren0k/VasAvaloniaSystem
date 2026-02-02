@@ -1,6 +1,10 @@
+using Microsoft.AspNetCore.Mvc;
+
 namespace SystemWebApi.Controllers;
 
-public class AuthController
+[ApiController]
+[Route("[controller]")]
+public class AuthController : Controller
 {
-    
+   // [HttpPost("/api/auth/login")]
 }
